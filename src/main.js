@@ -5,15 +5,15 @@ import store from './store'
 import firebase from 'firebase'
 
 Vue.config.productionTip = false
-const confing = {
-  apikey: 'AIzaSyDpSOfP0h0SjHQMF6sn50J2dxUcAxWuqEA ',
+const config = {
+  apiKey: 'AIzaSyDpSOfP0h0SjHQMF6sn50J2dxUcAxWuqEA ',
   projectId: 'test-20430',
   authDomain: 'test-20430.firebaseapp.com',
   databaseURL: 'https://test-20430.firebaseio.com',
-  strongeBuket: 'test-20430.appspot.com',
+  strorageBuket: 'test-20430.appspot.com',
 }
 
-firebase.initializeApp(confing);
+firebase.initializeApp(config);
 
 export default firebase;
 new Vue({
