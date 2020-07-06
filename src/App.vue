@@ -14,6 +14,6 @@
 }
 html,
 body {
-  background-color: #20262e
+  background-color: #20262e;
 }
 </style>
