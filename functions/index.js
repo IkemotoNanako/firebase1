@@ -11,6 +11,6 @@ exports.writeUrl = functions.storage.object().onFinalize((object) => {
     
     db.collection('people').add({
         name: name,
-        url: `https://firebasestorage.googleapis.com/v0 /b/${bucketName}/o/${encodeURIComponent(filePath)}?alt=media`,
+        url: `https://firebasestorage.googleapis.com/v0/b/${bucketName}/o/${encodeURIComponent(filePath)}?alt=media`,
     }).then(() => console.log('Done'));
 });
